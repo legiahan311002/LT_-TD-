@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Calculate Your BMI</string>
+    <string name = "gioithieu">Hãy nhập chiều cao của bạn </string>
 </resources>

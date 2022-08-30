@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
-    tools:context=".MainActivity">
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context=".MainActivity">
 
 
     <TextView
@@ -22,21 +22,21 @@
         android:text="Calculate Your BMI" />
 
     <EditText
-        android:id="@+id/chieucao"
+        android:id="@+id/edtHeight"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
 
         android:layout_marginTop="40dp"
         android:ems="10"
-        android:hint="Height(cm)"
+        android:hint="Height(m)"
         android:inputType="textPersonName"
         android:text="" />
 
     <EditText
         android:layout_marginTop="20dp"
-        android:layout_below="@+id/chieucao"
-        android:id="@+id/cannang"
+        android:layout_below="@+id/edtHeight"
+        android:id="@+id/edtWeight"
         android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -49,9 +49,52 @@
         android:id="@+id/tieptuc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/cannang"
+        android:layout_below="@+id/edtWeight"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tieptuc"
+        android:layout_marginTop="40dp"
+        android:text="Kết Quả:"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tieptuc"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:text="Đánh Giá:"
+        android:textSize="27sp" />
+
+    <EditText
+
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
 
 </RelativeLayout>
