@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="cursive"
+        android:text="Eat Food"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+
+    <Button
+        android:background="@drawable/duongvien_goctron"
+        android:id="@+id/button7"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/darkblue"
+        android:text="Profile"
+        android:textColor="@color/silver"
+        android:textSize="16dp"
+
+
+        />
+
+
+    <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="69dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="75dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="91dp"
+        android:layout_height="82dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/asd" />
+
+    <Button
+        android:background="@drawable/duongvien_goctron"
+        android:id="@+id/button8"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/darkblue"
+        android:text="list"
+        android:textColor="@color/silver"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Lê Gia Hân - 2050531200139"
+        android:textColor="@color/silver"
+        android:textSize="22sp" />
+
+
+
+
+</RelativeLayout>
