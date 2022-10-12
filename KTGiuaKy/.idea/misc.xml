@@ -11,7 +11,7 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/KTGiuaKy/app/src/main/res/layout/activity_listcourse.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/KTGiuaKy/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/KTGiuaKy/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/KTGiuaKy/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/KTGiuaKy/app/src/main/res/layout/activity_menu.xml" value="0.1" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/KTGiuaKy/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/KTGiuaKy/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
       </map>
@@ -22,5 +22,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

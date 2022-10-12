@@ -52,4 +52,41 @@
         android:textAlignment="center"
         android:textColor="#fff"
         android:textSize="20sp" />
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+
+
+        >
+        <ImageView
+            android:id="@+id/imagehome"
+            android:layout_weight="1"
+            android:src="@drawable/home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+        <ImageView
+            android:id="@+id/imageprofile"
+            android:layout_weight="1"
+            android:src="@drawable/profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+        <ImageView
+            android:id="@+id/imagelist"
+            android:layout_weight="1"
+            android:src="@drawable/list"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            />
+
+    </LinearLayout>
 </RelativeLayout>

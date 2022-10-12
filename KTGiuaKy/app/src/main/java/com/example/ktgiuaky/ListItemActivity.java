@@ -3,6 +3,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +14,7 @@ public class ListItemActivity extends AppCompatActivity {
     ListView lvSubject;
     ArrayList<Course> arrayCourse;
     CourseAdapter adapter;
+    private ImageView imagehome,imageprofile,imagelist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,31 @@ public class ListItemActivity extends AppCompatActivity {
                 intent.putExtra("courseName", course.getName());
                 intent.putExtra("detail", course.getDetail());
 
+                startActivity(intent);
+            }
+        });
+        imagehome = (ImageView) findViewById(R.id.imagehome);
+        imageprofile = (ImageView) findViewById(R.id.imageprofile);
+        imagelist = (ImageView) findViewById(R.id.imagelist);
+
+        imagehome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ListItemActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
+        imageprofile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ListItemActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
+        imagelist.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ListItemActivity.this, ListItemActivity.class);
                 startActivity(intent);
             }
         });
