@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/recyclerview-with-search-and-clicklistener-master/recyclerview-with-search-and-clicklistener-master/app/src/main/res/drawable/recyclerview_bg.xml" value="0.169" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/recyclerview-with-search-and-clicklistener-master/recyclerview-with-search-and-clicklistener-master/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/recyclerview-with-search-and-clicklistener-master/recyclerview-with-search-and-clicklistener-master/app/src/main/res/layout/activity_selected_user.xml" value="0.11676798378926039" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/recyclerview-with-search-and-clicklistener-master/recyclerview-with-search-and-clicklistener-master/app/src/main/res/layout/row_users.xml" value="0.12360688956433637" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
