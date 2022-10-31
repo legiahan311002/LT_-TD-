@@ -26,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                 startActivity(intent);
             }
         });
